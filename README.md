@@ -13,7 +13,7 @@ https://github.com/kendricktan/pybp
 
 
 2. **Implementation**   
-Once you implement auction, auction_info, bidder program, cli gives guidance how to progress auction program.  
+Once you implement auction, auction_info, bidder program, CLI gives guidance how to progress auction program.   
 
 Executing the auction: 
 ```
