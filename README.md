@@ -7,7 +7,8 @@ This auction program is executed using CLI and composed of three parts: auction,
 - auction_info gives information about the auction such as list of bidders, and permission to close bid.
 - bidders can submit the value and check their results. 
 
-In pure python based sealed auction, pedersen commitment and bulletproof were used.  
+In pure python based sealed auction, pedersen commitment and bulletproof were used.
+To implement this auction, please install this package first.   
 https://github.com/kendricktan/pybp
 
 
