@@ -1,6 +1,6 @@
 # Sealed bid auction purely based on python
 
-1. Description
+1. **Description**  
 Before adopting solidity in auction program, I implemented a purely python based sealed auction.  
 This auction program is executed using CLI and composed of three parts: auction, auction_info, and bidders.
 - auction starts a auction server and responds to the requests from auction_info and bidders.
@@ -12,7 +12,7 @@ https://github.com/kendricktan/pybp
 
 
 
-2. Implementation 
+2. **Implementation**   
 Once you implement auction, auction_info, bidder program, cli gives guidance how to progress auction program.  
 
 Executing the auction: 
