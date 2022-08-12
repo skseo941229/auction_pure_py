@@ -4,7 +4,7 @@
 Before adopting solidity in auction program, I implemented a purely python based sealed auction.  
 This auction program is executed using CLI and composed of three parts: auction, auction_info, and bidders.
 - auction starts a auction server and responds to the requests from auction_info and bidders.
-- auction_info gives information about the auction such as list of bidders, and permission to close bid.
+- auction_info gives information about the auction such as list of bidders, and has a permission to close bid.
 - bidders can submit the value and check their results. 
 
 In pure python based sealed auction, pedersen commitment and bulletproof were used.
