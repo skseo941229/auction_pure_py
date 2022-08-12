@@ -1,5 +1,8 @@
 # auction_pure_py
 
+
+
+
 to execute the auction server
 ```
 python auction.py
@@ -10,5 +13,5 @@ python auction_info.py
 ```
 to execute the bidder -- bidder.py  
 ```
-python bidder.py
+python bidder.py <bidder_name>
 ```
