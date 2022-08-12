@@ -1,17 +1,31 @@
-# auction_pure_py
+# Sealed bid auction purely based on python
+
+1. Description
+Before adopting solidity in auction program, I implemented a purely python based sealed auction.  
+This auction program is executed using CLI and composed of three parts: auction, auction_info, and bidders.
+- auction starts a auction server and responds to the requests from auction_info and bidders.
+- auction_info gives information about the auction such as list of bidders, and permission to close bid.
+- bidders can submit the value and check their results. 
+
+In pure python based sealed auction, pedersen commitment and bulletproof were used.  
+https://github.com/kendricktan/pybp
 
 
 
+2. Implementation 
+Once you implement auction, auction_info, bidder program, cli gives guidance how to progress auction program.  
 
-to execute the auction server
+Executing the auction: 
 ```
 python auction.py
 ```
-to execute the owner (auction_info) -- auction_info.py  
+
+Execute the auction_info:
 ```
 python auction_info.py
 ```
-to execute the bidder -- bidder.py  
+
+Execute the bidder:
 ```
 python bidder.py <bidder_name>
 ```
