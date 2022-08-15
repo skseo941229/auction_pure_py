@@ -5,6 +5,10 @@ This is a first step of a progressive sealed-bid auction.
 ## Description
 
 In this phase, any blockchain technology was not employed. For hiding a bidding price, pedersen commitment was employed. For verification of losing bids, bulletproof was used. 
+- Auction starts a auction server and responds to the requests from auction_info and bidders.
+- Auction_info gives information about the auction such as list of bidders, and has a permission to close bid.
+- Bidders can submit the value and check their results. 
+
 
 ## Getting Started
 
